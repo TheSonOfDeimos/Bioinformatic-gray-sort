@@ -1,0 +1,9 @@
+[submodule "htslib"]
+	path = htslib
+	url = https://github.com/samtools/htslib.git
+[submodule "samtools"]
+	path = samtools
+	url = https://github.com/samtools/samtools
+[submodule "bwa"]
+	path = bwa
+	url = https://github.com/lh3/bwa.git
