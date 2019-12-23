@@ -58,7 +58,7 @@ autoconf
 ```
 15. Можно собирать (сортировка чисел):
 ```
-make mpiio meta
+make mpiio
 ```
 
 # Тесты
