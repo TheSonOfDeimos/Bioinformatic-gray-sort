@@ -19,7 +19,7 @@ sudo rm /var/lib/dpkg/lock
 9. Установить следующие пакеты:
 ```
 sudo apt update
-sudo apt install git autoconf zlib1g-dev libbz2-dev liblzma-dev libncurses5-dev
+sudo apt install git autoconf zlib1g-dev libbz2-dev liblzma-dev libncurses5-dev libopenmpi-dev
 ```
 10. Склонировать проект (https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules):
 ```
