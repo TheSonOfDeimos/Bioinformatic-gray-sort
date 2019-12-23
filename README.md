@@ -21,10 +21,10 @@ sudo rm /var/lib/dpkg/lock
 sudo apt update
 sudo apt install git autoconf zlib1g-dev libbz2-dev liblzma-dev libncurses5-dev libopenmpi-dev
 ```
-10. Склонировать проект (https://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules):
+10. Склонировать проект (https://github.com/TheSonOfDeimos/Bioinformatic-gray-sort.git):
 ```
 cd ~/Downloads
-git clone --recurse-submodules https://gitlab.com/sort-dev/gray-team/gray-sort.git
+git clone --recurse-submodules https://github.com/TheSonOfDeimos/Bioinformatic-gray-sort.git
 cd gray-sort/
 ```
 11. Установить библиотеку htslib (ignore warnings) (https://github.com/samtools/htslib):
@@ -58,7 +58,7 @@ autoconf
 ```
 15. Можно собирать (сортировка чисел):
 ```
-make meta
+make mpiio meta
 ```
 
 # Тесты
